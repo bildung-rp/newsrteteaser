@@ -1,6 +1,6 @@
 {
     "name": "bildung-rp/newsrteteaser",
-    "type": "tt_news subheader with RTE",
+    "type": typo3-cms-extension",
     "description": "Turns the subheader textfield into a RTE. Patched for TYPO3 7LTS",
     "homepage": "https://github.com/bildung-rp/newsrteteaser",
     "license": ["GPL-2.0+"],
