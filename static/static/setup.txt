@@ -1,0 +1,8 @@
+plugin.tt_news {
+  displayList {
+    subheader_stdWrap.stripHtml = 0
+    subheader_stdWrap.crop =
+    subheader_stdWrap.parseFunc =< lib.parseFunc_RTE
+    subheader_stdWrap.outerWrap >
+  }
+}

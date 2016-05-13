@@ -1,0 +1,24 @@
+a:5:{s:4:"save";a:3:{s:13:"extension_key";s:13:"newsrteteaser";s:18:"print_wop_comments";s:1:"0";s:15:"overwrite_files";a:8:{s:9:"ChangeLog";s:1:"1";s:10:"README.txt";s:1:"1";s:12:"ext_icon.gif";s:1:"1";s:14:"ext_tables.php";s:1:"1";s:19:"doc/wizard_form.dat";s:1:"1";s:20:"doc/wizard_form.html";s:1:"1";s:44:"static/news_with_rte_subheader/constants.txt";s:1:"1";s:40:"static/news_with_rte_subheader/setup.txt";s:1:"1";}}s:6:"emconf";a:1:{i:1;a:7:{s:5:"title";s:26:"tt_news subheader with RTE";s:11:"description";s:41:"Turns the subheader textfield into a RTE.";s:8:"category";s:4:"misc";s:5:"state";s:5:"alpha";s:12:"dependencies";s:7:"tt_news";s:6:"author";s:10:"Ümit Cebi";s:12:"author_email";s:25:"uemit.cebi@googlemail.com";}}s:2:"ts";a:1:{i:1;a:3:{s:5:"title";s:23:"News with RTE Subheader";s:9:"constants";s:0:"";s:5:"setup";s:599:"plugin.tt_news {
+  displayLatest {
+    subheader_stdWrap.stripHtml = 0
+    subheader_stdWrap.crop =
+    subheader_stdWrap.parseFunc =< lib.parseFunc_RTE
+    subheader_stdWrap.outerWrap >
+  }
+}
+plugin.tt_news {
+  displayList {
+    subheader_stdWrap.stripHtml = 0
+    subheader_stdWrap.crop =
+    subheader_stdWrap.parseFunc =< lib.parseFunc_RTE
+    subheader_stdWrap.outerWrap >
+  }
+}
+plugin.tt_news {
+  displaySingle {
+    subheader_stdWrap.stripHtml = 0
+    subheader_stdWrap.crop =
+    subheader_stdWrap.parseFunc =< lib.parseFunc_RTE
+    subheader_stdWrap.outerWrap >
+  }
+}";}}s:6:"tables";a:0:{}s:14:"modulefunction";a:0:{}}
